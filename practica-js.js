@@ -11,3 +11,12 @@ function restar(a, b) {
 }
 const resultadoResta = restar(10, 5);
 console.log("resta", resultadoResta);
+
+
+function multiplicar(a, b) {
+  const total = a * b;
+  return total;
+}
+const resultadoMultiplicacion = multiplicar(10, 5);
+console.log("multiplicación", resultadoMultiplicacion);
+
