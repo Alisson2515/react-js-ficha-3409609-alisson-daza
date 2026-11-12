@@ -20,3 +20,10 @@ function multiplicar(a, b) {
 const resultadoMultiplicacion = multiplicar(10, 5);
 console.log("multiplicación", resultadoMultiplicacion);
 
+function dividir(a, b) {
+  const total = a / b;
+  return total;
+}
+const resultadoDivision = dividir(10, 2);
+console.log("división", resultadoDivision);
+
