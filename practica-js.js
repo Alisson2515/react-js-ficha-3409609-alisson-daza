@@ -27,3 +27,9 @@ function dividir(a, b) {
 const resultadoDivision = dividir(10, 2);
 console.log("división", resultadoDivision);
 
+function calcularPromedio(nota1, nota2, nota3) {
+  const total = (nota1 + nota2 + nota3) / 3;
+  return total;
+}
+const resultadoPromedio = calcularPromedio(4, 3, 4);
+console.log("promedio", resultadoPromedio);
