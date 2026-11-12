@@ -1,6 +1,7 @@
-function calcularTotal(precio, cantidad) {
-const total = precio * cantidad;
-return total;
+function sumar(a, b) {
+  const total = a + b;
+  return total;
 }
-const resultado = calcularTotal(50000, 3);
-console.log(resultado);
+const resultadoSuma = sumar(10, 5);
+console.log("suma", resultadoSuma);
+
