@@ -3,6 +3,11 @@ const productos = [
   { id: 2, nombre: "Teclado", precio: 80000, categoria: "Tecnología", stock: 12 },
   { id: 3, nombre: "Monitor", precio: 450000, categoria: "Monitores", stock: 0 } // Stock en 0 para probar el filtro
 ];
+
+export function buscarProducto(id) {
+  return productos.find(producto => producto.id === id);
+}
+
 // --- RETO 8: JavaScript moderno ---
 
 // 12.1 Template literals
